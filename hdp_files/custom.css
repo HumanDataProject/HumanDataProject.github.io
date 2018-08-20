@@ -1,0 +1,259 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+b {
+	font-weight: 600 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+small, sub, sup {
+	font-size: .73em;
+}
+
+sub {
+	vertical-align: sub;
+}
+
+sup {
+	vertical-align: super;
+}
+
+#nav-home-container {
+	background: white;
+}
+
+header#masthead ul li a {
+	color: #444;
+	padding: 0;
+	padding-bottom: 2px;
+}
+
+.nav li {
+	margin-right: 35px;
+}
+
+.nav>li>a {
+	padding-top: 0;
+}
+
+#nav-home-container {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.nav-toggle:before {
+	font-family: "FontAwesome";
+	content: "\f0c9";
+}
+
+.nav-toggle {
+	display: none;
+}
+
+/*
+.blog-main, .category #main {
+	background: #f7f7f7;
+}
+
+.category .sidebar-column, .blog .sidebar-column {
+	background: white;
+}
+
+.category .sidebar-column #mailbag_mailchimp_email, .blog .sidebar-column #mailbag_mailchimp_email {
+	background: #f1f1f1;
+}
+
+.blog #header-inside {
+	display: none;
+}
+*/
+.sci-address-phone, .sci-address-email a, .sci-address-street, .sci-address-city, .sci-address-state, .sci-address-country, .sci-address-zip {
+	color: white !important;
+}
+
+.sci-address-phone, .sci-address-street, .sci-address-city, .sci-address-state, .sci-address-country, .sci-address-zip {
+	margin-bottom: 0;
+}
+
+.subscribe-footer-new .widget_sci_googlemaps_widget:after, .subscribe-footer-new .widget_sci_info_widget:after, .widget_image:after {
+	margin: 0 !important;
+	margin-bottom: 15px !important;
+}
+
+.hdp-logo, .logo {
+	height: 32px;
+}
+
+.media {
+	height: 175px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.entry-content a {
+	border-bottom: 1px solid #000;
+}
+
+.subscribe-footer .mailbag-wrap input[type="submit"] {
+	line-height: normal;
+}
+
+.legal_footer {
+	float: left;
+}
+
+.legal_footer a {
+	color: white;
+}
+
+.disclaimer {
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 20px;
+}
+
+.subscribe-footer-new .widget li a {
+	line-height: 18px;
+	margin-bottom: 25px;
+}
+
+.subscribe-footer-4 {
+	width: 40%;
+}
+
+.entry-content a {
+	text-decoration: underline;
+	border-bottom: none;
+}
+
+.entry-content a:hover {
+	text-decoration: underline;
+	border-bottom: none;
+}
+
+#canvas {
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+#sidebar {
+	display: none;
+}
+
+.blog_home_row {
+	display: inline-block;
+}
+
+.blog-post {
+	width: 46%;
+}
+
+.blog_home_row article:first-child {
+	margin-right: 4%;
+}
+
+.blog_home_row article:nth-child(2) {
+	margin-left: 4%;
+}
+
+.media {
+	max-height: 175px;
+}
+
+h2.entry-blog-title {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.box {
+	width: 100%;
+}
+
+.blog-post {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.published_date {
+	font-size: 14px;
+}
+
+.rt-reading-time {
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+.background-cover-image {
+	background-position: center;
+}
+
+h3 span {
+	color: #444;
+}
+
+ul, ol {
+	margin-bottom: 0;
+}
+
+.entry-content > ul {
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 479px) {
+	#primary-menu {
+		display: block;
+	}
+	
+	.hdp-logo {
+		height: 32px;
+	}
+	
+	.subscribe-footer-4 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#primary-menu {
+		display: block;
+	}
+	
+	.hdp-logo {
+		height: 26px;
+		margin-top: 2px;
+	}
+	
+	.subscribe-footer-4 {
+		width: 100%;
+	}
+	
+	.nav li {
+		padding-bottom: 2px;
+		margin-right: 20px;
+	}
+	
+	.nav li:last-child {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	#primary-menu {
+		display: block;
+	}
+	
+	.hdp-logo {
+		height: 50px;
+	}
+}
+
+.main-blog-column a {
+	color: #3c769e !important;
+}
